@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.0 (swiftlang-800.0.46.2 clang-800.0.38)"
+options: "85458ed4af509ce604c8e4217ea74ec4"
+build_time: [527642940, 466536000]
+inputs:
+  "/Users/sahandedrisian/Desktop/FantasticView/FantasticView/ViewController.swift": [9223372036854775807, 0]
+  "/Users/sahandedrisian/Desktop/FantasticView/FantasticView/AppDelegate.swift": [9223372036854775807, 0]
+  "/Users/sahandedrisian/Desktop/FantasticView/FantasticView/FantasticView.swift": [9223372036854775807, 0]

@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		877CC42E1D8F33D600A4468D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC42D1D8F33D600A4468D /* AppDelegate.swift */; };
-		877CC4301D8F33D600A4468D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC42F1D8F33D600A4468D /* ViewController.swift */; };
 		877CC4331D8F33D600A4468D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CC4311D8F33D600A4468D /* Main.storyboard */; };
 		877CC4351D8F33D600A4468D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877CC4341D8F33D600A4468D /* Assets.xcassets */; };
 		877CC4381D8F33D600A4468D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 877CC4361D8F33D600A4468D /* LaunchScreen.storyboard */; };
 		877CC4431D8F33D600A4468D /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC4421D8F33D600A4468D /* FantasticViewTests.swift */; };
 		877CC44E1D8F33D700A4468D /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC44D1D8F33D700A4468D /* FantasticViewUITests.swift */; };
+		877CC45D1D8F33EF00A4468D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC45B1D8F33EF00A4468D /* ViewController.swift */; };
+		877CC45E1D8F33EF00A4468D /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877CC45C1D8F33EF00A4468D /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		877CC42A1D8F33D600A4468D /* FantasticView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FantasticView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		877CC42D1D8F33D600A4468D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		877CC42F1D8F33D600A4468D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		877CC4321D8F33D600A4468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		877CC4341D8F33D600A4468D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		877CC4371D8F33D600A4468D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		877CC4491D8F33D700A4468D /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877CC44D1D8F33D700A4468D /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
 		877CC44F1D8F33D700A4468D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		877CC45B1D8F33EF00A4468D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		877CC45C1D8F33EF00A4468D /* FantasticView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				877CC42D1D8F33D600A4468D /* AppDelegate.swift */,
-				877CC42F1D8F33D600A4468D /* ViewController.swift */,
+				877CC45B1D8F33EF00A4468D /* ViewController.swift */,
+				877CC45C1D8F33EF00A4468D /* FantasticView.swift */,
 				877CC4311D8F33D600A4468D /* Main.storyboard */,
 				877CC4341D8F33D600A4468D /* Assets.xcassets */,
 				877CC4361D8F33D600A4468D /* LaunchScreen.storyboard */,
@@ -262,8 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				877CC4301D8F33D600A4468D /* ViewController.swift in Sources */,
+				877CC45D1D8F33EF00A4468D /* ViewController.swift in Sources */,
 				877CC42E1D8F33D600A4468D /* AppDelegate.swift in Sources */,
+				877CC45E1D8F33EF00A4468D /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
